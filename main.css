@@ -1,5 +1,13 @@
 /* Thanks for taking the time to read through my code! If you have any suggestions, push an issue to the github page! */
 
+p {
+   font-family: 'Raleway', sans-serif;
+}
+
+h1, h2 {
+    font-family: 'Titillium Web', sans-serif;
+}
+
 body {
     
     background-color: cornsilk;
