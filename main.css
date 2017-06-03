@@ -1,0 +1,55 @@
+/* Thanks for taking the time to read through my code! If you have any suggestions, push an issue to the github page! */
+
+body {
+    
+    background-color: cornsilk;
+}
+
+.section {
+    text-align: center;
+}
+
+.row.match-my-cols {
+    overflow: hidden; 
+    border-style: solid;
+    border-top: 1px, black;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+.row.match-my-cols [class*="col-"]{
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+
+.col-sm-4 {
+    text-align: center;
+    border-style: solid;
+    border-bottom: 1px, black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    
+    padding-bottom: 5px;
+    padding-top: 2px;
+    
+    height: auto;
+}
+
+.title_main_sub {
+    text-align: center;
+}
+
+#col1 {
+    background-color: #9ebced;
+}
+#col2 {
+    background-color: #91bc85;
+}
+#col3 {
+    background-color: #f9a79f;
+}
+#col4 {
+    background-color: #b160d1;
+}
