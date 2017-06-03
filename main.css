@@ -4,8 +4,9 @@ p {
    font-family: 'Raleway', sans-serif;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: 'Titillium Web', sans-serif;
+    text-align: center;
 }
 
 body {
@@ -60,4 +61,12 @@ body {
 }
 #col4 {
     background-color: #b160d1;
+}
+
+.pic {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 8px;
 }
