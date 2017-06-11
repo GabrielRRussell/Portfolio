@@ -63,10 +63,19 @@ body {
     background-color: #b160d1;
 }
 
-.pic {
+.pic, .pic_flip {
     max-width: 80%;
     height: auto;
     display: block;
     margin: 0 auto;
     padding-bottom: 8px;
+    margin-bottom: 2px;
+}
+
+.pic_flip {
+    transform: rotate(180deg);
+}
+
+#abme {
+    margin-bottom: 30px;
 }
