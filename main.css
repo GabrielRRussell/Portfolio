@@ -9,13 +9,39 @@ h1, h2, h3 {
     text-align: center;
 }
 
+/* Thank StackOverflow https://stackoverflow.com/questions/20039765/how-to-apply-a-css-3-blur-filter-to-a-background-image */
+
 body {
+  overflow: auto;
+  position: relative;
+}
+
+body:before {
+  content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url("assets/code.jpg");
+  background-size:cover;
+  width: 110%;
+  height: 110%;
     
-    background-color: cornsilk;
+  margin-left: -5%;
+  margin-top: -5%;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
 }
 
 .section {
     text-align: center;
+    background-image: "assets/code.jpg";
 }
 
 .row.match-my-cols {
@@ -48,6 +74,14 @@ body {
 
 .title_main_sub {
     text-align: center;
+}
+
+#icon {
+    border-radius: 50%;
+    max-width: 15%;
+    height: auto;
+    
+    padding-bottom: 5px;
 }
 
 #col1 {
